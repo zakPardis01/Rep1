@@ -1,0 +1,32 @@
+#a{
+   font-size: 80px;
+   border: 5em solid;
+}
+
+#b{
+    height: 10vh;
+    width: 20vh;
+    border: 10px blue solid;
+}
+
+#c{
+    font-weight: 100%;
+  
+}
+#f::after{
+    content: url(/HTML/Image/20221205_foto_GETTY_neymar_jr_jogo_brasil_x_coreia_copa_do_mundo__209_.jpg);
+    border-radius: 50px;
+}
+
+@media (max-width: 1000px) and (min-width: 900px){
+    body{
+        background-color: blue;
+    }
+}
+@media (max-width: 900px) and (min-width: 700px){
+    
+   body{
+    background-color: green;
+   }
+    
+}
